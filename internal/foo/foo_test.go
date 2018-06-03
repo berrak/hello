@@ -15,7 +15,6 @@ limitations under the License.
 package foo
 
 import (
-	"github.com/stretchr/testify/assert"
 	"testing"
 )
 
@@ -35,12 +34,12 @@ func TestReverse(t *testing.T) {
 
 }
 
-func TestAssertEngAlphabet(t *testing.T) {
-
-	var a string = "abcdefghijklmnopqrstuvwxyzABCDEFGHIJKLMNOPQRSTUVWXYZ"
-	var b string = "ZYXWVUTSRQPONMLKJIHGFEDCBAzyxwvutsrqponmlkjihgfedcba"
-	r := Reverse(b)
-
-	assert.Equal(t, a, r, "The two words should be the same.")
-
-}
+//func TestAssertEngAlphabet(t *testing.T) {
+//
+//	var a string = "abcdefghijklmnopqrstuvwxyzABCDEFGHIJKLMNOPQRSTUVWXYZ"
+//	var b string = "ZYXWVUTSRQPONMLKJIHGFEDCBAzyxwvutsrqponmlkjihgfedcba"
+//	r := Reverse(b)
+//
+//	assert.Equal(t, a, r, "The two words should be the same.")
+//
+//}
